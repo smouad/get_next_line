@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
-int	ft_strlen(char *str)
+int ft_strlen(char *str)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (str && str[i])
@@ -22,12 +22,12 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-char	*ft_strjoin(char *s1, char *s2)
+char *ft_strjoin(char *s1, char *s2)
 {
-	char	*str;
-	int		len;
-	int		i;
-	int		j;
+	char *str;
+	int len;
+	int i;
+	int j;
 
 	if (s1 == NULL)
 	{
@@ -50,9 +50,9 @@ char	*ft_strjoin(char *s1, char *s2)
 	return (str);
 }
 
-int	ft_strchr(char *str, char c)
+int ft_strchr(char *str, char c)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (str && str[i])
