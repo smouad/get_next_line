@@ -2,6 +2,9 @@
 
 Welcome to my implementation of the Get_Next_Line (GNL) project for 42 School. The objective of this C programming project is to create a function that reads from a file descriptor and returns a line ending with a newline character.
 
+<p align="center">
+    <img src="https://www.wikitechy.com/tutorials/golang/img/golang-images/golang-reading-files.gif" />
+</p>
 ## Description
 
 `get_next_line` is an individual project at 42 that basically teaches you how to use static variables in C to read the contents of a file or stdin one line at a time, regardless of the length of the line.
